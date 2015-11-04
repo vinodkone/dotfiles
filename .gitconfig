@@ -1,1 +1,16 @@
-/Users/vinod/.gitconfig
+[alias]
+        co = checkout
+        st = status
+        lol = log --graph --decorate --pretty=oneline --abbrev-commit
+        lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+        rb = !sh -c 'git log --all --grep=$1 --oneline | cut -d\" \" -f1 | xargs git branch --contains' -
+[color]
+        branch = auto
+        diff = auto
+        interactive = auto
+        status = auto
+[user]
+	email = vinodkone@gmail.com
+	name = Vinod Kone
+[core]
+	trustctime = false

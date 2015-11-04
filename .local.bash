@@ -1,1 +1,1 @@
-/Users/vinod/.local.bash
+ulimit -n 65536 65536
